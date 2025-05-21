@@ -1,8 +1,10 @@
-target/
+/target
+/.idea
 *.iml
-.idea/
 *.log
-*.DS_Store
+*.class
+.DS_Store
+>>>>>>> 250c389 (feat: product-service com CRUD básico finalizado)
 .env
 HELP.md
 target/
