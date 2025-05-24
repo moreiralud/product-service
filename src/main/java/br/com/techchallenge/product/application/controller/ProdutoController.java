@@ -27,3 +27,4 @@ public class ProdutoController {
         return ResponseEntity.ok(service.listar());
     }
 }
+

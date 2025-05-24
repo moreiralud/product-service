@@ -65,7 +65,7 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- Devtools (opcional para hot reload) -->
+		<!-- Devtools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -73,11 +73,11 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- Actuator -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-
 
 		<!-- Tests -->
 		<dependency>

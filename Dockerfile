@@ -14,4 +14,3 @@ RUN ./mvnw clean package -DskipTests
 EXPOSE 8081
 
 CMD ["./mvnw", "spring-boot:run", "-Dspring-boot.run.arguments=--server.port=8081"]
-
